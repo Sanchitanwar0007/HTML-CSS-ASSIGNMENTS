@@ -1,0 +1,48 @@
+{
+	"folders": [
+		{
+			"path": "..\\..\\..\\..\\Programming\\Python 10X"
+		}
+	],
+	"settings": {
+		"git.ignoreLimitWarning": true,
+		"[jsonc]": {
+
+			"editor.quickSuggestions": {
+				"strings": true
+			},
+			"editor.suggest.insertMode": "replace"
+		},
+		"terminal.integrated.commandsToSkipShell": [
+			"editor.fontFamily\": \"Monaco\""
+		],
+		"editor.fontSize": 20,
+		"java.project.sourcePaths": [
+			"Java Codes",
+			""
+		]
+	},
+	"launch": {
+		"version": "0.2.0",
+		"configurations": [
+			{
+				"type": "java",
+				"name": "Launch Current File",
+				"request": "launch",
+				"mainClass": "${file}"
+			},
+			{
+				"type": "java",
+				"name": "Launch BinaryTree_Constructor",
+				"request": "launch",
+				"mainClass": "BinaryTree_Constructor"
+			},
+			{
+				"type": "java",
+				"name": "Launch first",
+				"request": "launch",
+				"mainClass": "first"
+			}
+		]
+	}
+}
